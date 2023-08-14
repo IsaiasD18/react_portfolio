@@ -1,4 +1,5 @@
-import { useState } from 'react';
+// import { useState, useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 // Component Imports
 import Footer from './components/Footer';
@@ -14,25 +15,17 @@ import Portfolio from './pages/Portfolio';
 
 function App() {
 
-  const [page, setPage] = useState('about');
-
-  const handlePageView = () => {
-
-
-    switch (page) {
-      case 'about':
-        return <About />;
-      case 'contact':
-        return <Contact />;
-      default:
-        return <Portfolio />
-    }
-  }
   return (
     <>
-      <Header page={page} setPage={setPage} />
+      <Header />
 
-      {handlePageView()}
+      <Routes>
+        <Route path="/" element={<About />} />
+
+        <Route path="/contact" element={<Contact />} />
+
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
 
       <Footer />
     </>
