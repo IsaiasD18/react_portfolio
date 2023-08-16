@@ -61,7 +61,7 @@ function Project() {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex-grow max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <h1 className="text-center text-3xl font-extrabold text-gray-900 mt-10">Projects</h1>
+        <h1 className="text-center text-4xl font-extrabold text-white mt-10">Projects</h1>
         <div className="mt-6 flex-grow mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {project.map(item => (
@@ -72,13 +72,13 @@ function Project() {
                   alt={item.title}
                 />
                 <div className='px-4 py-4 flex flex-col'>
-                  <h3 className="text-lg font-medium text-gray-900">{item.title}</h3>
-                  <p className="mt-1 text-sm text-gray-500 truncate">{item.description}</p>
+                  <h3 className="text-lg font-medium text-green-800">{item.title}</h3>
+                  <p className="mt-1 text-sm text-yellow-500 truncate">{item.description}</p>
                   <a
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3 text-sm font-medium text-blue-600 hover:text-blue-500"
+                    className="mt-3 text-sm font-medium text-green-600 hover:text-green-500"
                   >
                     Learn more
                   </a>
@@ -86,7 +86,7 @@ function Project() {
                     href={item.deployed}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3 text-sm font-medium text-blue-600 hover:text-blue-500"
+                    className="mt-3 text-sm font-medium text-green-600 hover:text-green-500"
                   >
                     Deployed App
                   </a>
