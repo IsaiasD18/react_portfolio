@@ -1,10 +1,17 @@
+import React from 'react';
+// import '../App.css';
+import Project from '../components/Project';
+
+
+
 function Portfolio() {
     return (
-      <main>
-        <h1>Portfolio</h1>
-        <p>Welcome to my Portfolio</p>
-      </main>
-    )
-  }
-  
-  export default Portfolio;
+        <section >
+            <div >
+                <Project/>
+            </div>
+        </section>
+    );
+}
+
+export default Portfolio

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 $mainColor: #0dad65;
 
 html, body, #root {
@@ -14,60 +18,8 @@ body {
   padding: 0;
 }
 
-.row, .column {
-  display: flex;
-}
 
-.column {
-  flex-direction: column;
-}
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.container {
-  padding: 0 4%;
-}
-
-header {
-  .toggle-bar {
-    background: #999;
-    height: 25px;
-    width: 70px;
-    border-radius: 30px;
-    position: relative;
-    cursor: pointer;
-    .toggle {
-      position: absolute;
-      height: 21px;
-      width: 21px;
-      top: 2px;
-      left: 4px;
-      background: #555;
-      border-radius: 50%;
-      transition: left .4s;
-    }
-  }
-  nav a {
-    text-decoration: none;
-    color: #000;
-    &:not(:last-child) {
-      margin-right: 10px;
-    }
-    &.active {
-      text-decoration: underline;
-    }
-  }
-}
 
 p.confirmation {
   color: darken($mainColor, 10%);
