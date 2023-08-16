@@ -6,6 +6,7 @@ $mainColor: #0dad65;
 
 html, body, #root {
   height: 100%;
+  background: linear-gradient(to right, #164A41 10%, #4D774E, #9DC88D);
 }
 
 body {
@@ -18,7 +19,13 @@ body {
   padding: 0;
 }
 
-
+.isaias {
+  background-image: linear-gradient(to top, #055206, #7d9b71);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
 
 
 p.confirmation {
