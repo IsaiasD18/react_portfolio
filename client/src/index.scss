@@ -28,26 +28,9 @@ body {
 }
 
 
-p.confirmation {
-  color: darken($mainColor, 10%);
-}
 
-form {
-  width: 400px;
-  margin: 0 auto;
-  > * {
-    padding: 4px 10px;
-    margin-bottom: 4px;
-  }
-  button {
-    border: none;
-    padding: 8px 10px;
-    cursor: pointer;
-    background: $mainColor;
-    color: #fff;
-    font-size: 1rem;
-  }
-}
+
+
 
 .modal {
   position: absolute;
@@ -65,4 +48,8 @@ form {
   &.show {
     display: initial;
   }
+}
+
+.active {
+  background-color: rgba(255, 251, 8, 0.425);
 }

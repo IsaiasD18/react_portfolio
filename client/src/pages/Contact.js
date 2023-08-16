@@ -84,45 +84,54 @@ function Contact() {
   };
 
   return (
-    <main>
-      <h1 className="text-center">Contact Me</h1>
+    <main className="mx-auto mt-10 max-w-lg p-6 bg-white rounded-lg shadow-md">
+  <h1 className="text-green-700 text-center text-4xl font-extrabold mb-6">Contact Me</h1>
 
-      {showConfirmation && (
-        <p className="text-center confirmation">
-          Thanks for your message! I'll get back to you soon.
-        </p>
-      )}
+  {showConfirmation && (
+    <p className="text-center text-green-600 mb-4">
+      Thanks for your message! I'll get back to you soon.
+    </p>
+  )}
 
-      {errorMessage && (
-        <p className="text-center error-message">{errorMessage}</p>
-      )}
+  {errorMessage && (
+    <p className="text-center text-red-600 mb-4">{errorMessage}</p>
+  )}
 
-      <form onSubmit={handleSubmit} className="column">
-        <input
-          name="name"
-          onChange={handleInputChange}
-          value={formData.name}
-          type="text"
-          placeholder="Enter your name"
-        />
-        <input
-          name="email"
-          onChange={handleInputChange}
-          value={formData.email}
-          type="email"
-          placeholder="Enter your email address"
-        />
-        <textarea
-          name="message"
-          onChange={handleInputChange}
-          value={formData.message}
-          cols="30"
-          rows="10"
-          placeholder="Enter your message"
-        />
-        <button>Submit</button>
-      </form>
-    </main>
+  <form onSubmit={handleSubmit} className="space-y-4">
+    <input
+      name="name"
+      onChange={handleInputChange}
+      value={formData.name}
+      type="text"
+      placeholder="Enter your name"
+      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-400"
+    />
+    <input
+      name="email"
+      onChange={handleInputChange}
+      value={formData.email}
+      type="email"
+      placeholder="Enter your email address"
+      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-400"
+    />
+    <textarea
+      name="message"
+      onChange={handleInputChange}
+      value={formData.message}
+      cols="30"
+      rows="6"
+      placeholder="Enter your message"
+      className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-400"
+    />
+    <button
+      type="submit"
+      className="w-full bg-green-700 text-white py-2 rounded-md hover:bg-yellow-300"
+    >
+      Submit
+    </button>
+  </form>
+</main>
+
   );
 }
 
