@@ -14,7 +14,7 @@ function Footer() {
           <FaGithub size={24} />
         </a>
         <a
-          href="https://linkedin.com/in/your-linkedin-profile"
+          href="https://linkedin.com/in/my-linkedin-profile"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-gray-300 mx-2 sm:mx-4"
@@ -22,7 +22,7 @@ function Footer() {
           <FaLinkedin size={24} />
         </a>
         <a
-          href="https://stackoverflow.com/users/your-stackoverflow-profile"
+          href="https://stackoverflow.com/users/my-stackoverflow-profile"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-gray-300 mx-2 sm:mx-4"

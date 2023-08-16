@@ -14,43 +14,43 @@ function Project() {
       title: 'Flexfit',
       image: Flexfit,
       description: "The main purpose of the application is...",
-      link: 'https://github.com/IsaiasD18',
-      deployed: 'https://github.com/IsaiasD18'
+      link: 'https://github.com/Reyesfrancisp/FlexFit_Fitness_App',
+      deployed: 'https://reyesfrancisp.github.io/FlexFit_Fitness_App/'
     },
     {
       title: 'Jate',
       image: Jate,
       description: "The main purpose of the application is...",
-      link: 'https://github.com/IsaiasD18',
-      deployed: 'https://github.com/IsaiasD18'
+      link: 'https://github.com/IsaiasD18/PWA',
+      deployed: 'https://sleepy-dawn-64785-b6af0c0c9895.herokuapp.com/'
     },
     {
       title: 'Notes',
       image: Notes,
       description: 'The main purpose of the application is...',
-      link: 'https://github.com/IsaiasD18',
-      deployed: 'https://github.com/IsaiasD18'
+      link: 'https://github.com/IsaiasD18/note_taker',
+      deployed: 'https://github.com/IsaiasD18/note_taker'
     },
     {
       title: 'Work Day Schedules',
       image: Scheduler,
       description: 'The main purpose of the application is...',
-      link: 'https://github.com/IsaiasD18',
-      deployed: 'https://github.com/IsaiasD18'
+      link: 'https://github.com/IsaiasD18/work_day_scheduler',
+      deployed: 'https://isaiasd18.github.io/work_day_scheduler/'
     },
     {
       title: 'Password Generator',
       image: Password,
       description: 'The main purpose of the application is...',
-      link: 'https://github.com/IsaiasD18',
-      deployed: 'https://github.com/IsaiasD18'
+      link: 'https://github.com/IsaiasD18/password_creator',
+      deployed: 'https://isaiasd18.github.io/password_creator/ '
     },
     {
       title: 'MixMate',
       image: MixMate,
       description: 'ApplicThe main purpose of the application is...ation',
-      link: 'https://github.com/IsaiasD18',
-      deployed: 'https://github.com/IsaiasD18'
+      link: 'https://github.com/ThomasSzentirmay/MixMate-App',
+      deployed: 'https://mixmatecocktails-1b7d39db7409.herokuapp.com/'
     },
   ];
 
