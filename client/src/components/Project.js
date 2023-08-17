@@ -52,6 +52,13 @@ function Project() {
       link: 'https://github.com/ThomasSzentirmay/MixMate-App',
       deployed: 'https://mixmatecocktails-1b7d39db7409.herokuapp.com/'
     },
+    {
+      title: 'PokeDex',
+      image: MixMate,
+      description: 'ApplicThe main purpose of the application is...ation',
+      link: ' https://github.com/Reyesfrancisp/Pokemon_Express',
+      deployed: 'https://pokemon-express-9b21aba65e55.herokuapp.com/'
+    },
   ];
 
   useEffect(() => {
